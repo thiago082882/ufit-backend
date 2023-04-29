@@ -1,0 +1,29 @@
+{
+  "name": "ufit_server",
+  "version": "1.0.0",
+  "description": "servidor da aplicacao ufit",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "author": "Gabriel Farias, Igor Montezuma de Miranda, Thiago Costa de Jesus",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.4",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^11.2.0",
+    "util": "^0.12.5"
+  }
+}
