@@ -53,7 +53,7 @@ users(app, upload);
 
 /* FIM DA CHAMADA  */
 
-server.listen(3000,'192.168.0.106' || 'localhost',function(){
+server.listen(3000,'10.0.0.101' || 'localhost',function(){
 
      console.log('Aplicação de NodeJS ' + port + 'Iniciada...')
 
